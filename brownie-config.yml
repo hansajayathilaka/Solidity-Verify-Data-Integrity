@@ -1,0 +1,10 @@
+dotenv: .env
+wallets:
+  from_key: ${PRIVATE_KEY}
+networks:
+  rinkeby:
+    verify: True
+    chain_id: 4
+  development:
+    verify: False
+    chain_id: 1337
